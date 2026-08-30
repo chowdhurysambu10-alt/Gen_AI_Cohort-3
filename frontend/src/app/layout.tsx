@@ -7,6 +7,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Personal Gemini Journal',
   description: 'A private, authenticated, and secure personal journaling application powered by Gemini.',
+  icons: {
+    icon: '/icon.svg',
+  },
 };
 
 export default function RootLayout({
